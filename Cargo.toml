@@ -1,0 +1,12 @@
+[package]
+name = "rusdown"
+version = "0.0.1"
+edition = "2021"
+description = "High-performance js markdown parser powered by Wasm/Rust"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+pulldown-cmark = "0.13.0"
+wasm-bindgen = "0.2"
