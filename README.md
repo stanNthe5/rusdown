@@ -15,6 +15,30 @@ const str = `
 const rd = new rusdown();
 console.log(rd.render(str))
 
+## Benchmark
+(benchmark/index.ts)
+
+```
+markdown-it: 66.376ms
+rusdown: 26.136ms
+
+markdown-it: 37.424ms
+rusdown: 12.951ms
+
+markdown-it: 34.82ms
+rusdown: 11.748ms
+
+markdown-it: 34.384ms
+rusdown: 10.858ms
+
+markdown-it: 33.947ms
+rusdown: 10.623ms
+
+markdown-it: 33.929ms
+rusdown: 10.993ms
+
+```
+
 ```
 
 ## Options
