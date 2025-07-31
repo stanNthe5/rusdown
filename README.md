@@ -14,6 +14,7 @@ const str = `
 `
 const rd = new rusdown();
 console.log(rd.render(str))
+```
 
 ## Benchmark
 (benchmark/index.ts)
@@ -36,8 +37,6 @@ rusdown: 10.623ms
 
 markdown-it: 33.929ms
 rusdown: 10.993ms
-
-```
 
 ```
 
