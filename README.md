@@ -1,5 +1,5 @@
 ## Rusdown
-Rusdown is a fast Markdown parser built with Rust's `pulldown_cmark` library and compiled to WebAssembly (WASM), offering high performance and easy integration with JavaScript environments. It is twice as fast as the `markdown-it`.
+Rusdown is a fast Markdown parser built with Rust's `pulldown_cmark` library and compiled to WebAssembly (WASM), offering high performance and easy integration with JavaScript environments. It is **3x** faster than `markdown-it`.
 
 ## Install
 ```
