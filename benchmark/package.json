@@ -1,0 +1,15 @@
+{
+  "name": "benchmark",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "markdown-it": "^14.1.0",
+    "rusdown": "^0.0.2"
+  }
+}
